@@ -1,0 +1,39 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+
+body {
+    background-color: #A1C7E0;
+    /*background-color: #026E81;*/
+}
+
+
+button {
+    margin-top: 10px;
+    font-size: small;
+    border-radius: 15px;
+    border: none;
+    padding: 2px 8px;
+    color: #026E81;
+}
+.enabled {
+    box-shadow: 1px 1px 8px cadetblue;
+}
+
+.disabled {
+    box-shadow: none;
+    color: #A1C7E0;
+}
+
+#locationLink {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #026E81;
+    font-weight: bold;
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#locationLink:hover {
+    color: #FF9933;
+}
